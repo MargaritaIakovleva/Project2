@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity
         }
         else
         {
+            etInput.setText("");
             guess = (int)(Math.random()*100);
             bControl.setText("Ввести значение:");
             tvInfo.setText(getResources().getString(R.string.try_to_guess));
